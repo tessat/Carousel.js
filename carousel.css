@@ -1,0 +1,120 @@
+.carousel {
+	background:#fff;
+	border:1px solid #000;
+	padding:10px;
+	position:relative;
+}
+
+.carousel .c-content {
+	overflow:hidden;
+}
+
+.carousel .c-content .sliding-content {
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+.carousel .c-content .sliding-content ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+.carousel .c-content .sliding-content ul li {
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	float:left;
+}
+
+.carousel .c-content .arrows {
+	position:absolute;
+	height:100%;
+	width:90%;
+	top:0px;
+	left:3%;
+}
+
+.carousel .c-content .arrows a {
+	text-decoration:none;
+	position:relative;
+	display:block;
+	cursor:hand;
+	cursor:pointer;
+	height:100%;
+}
+
+.carousel .c-content .arrows a.left {
+	float:left;
+}
+
+.carousel .c-content .arrows a.right {
+	float:right;
+}
+
+.carousel .c-content .arrows a img {
+	position:absolute;
+	left:0px;
+	top:41%;
+}
+
+.carousel .c-content .arrows a img.hover {
+	display:none;
+}
+
+.carousel .c-content .arrows a:hover img.hover {
+	display:inline;
+}
+
+.carousel .c-content .nav {
+	background:none;
+	position:absolute;
+	left:0px;
+	bottom:20px;
+	height:auto;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.carousel .c-content .nav ul {
+	padding:0px;
+	margin:0px auto;
+	list-style:none;
+}
+
+.carousel .c-content .nav ul li {
+	display:inline-block;
+	float:none;
+	width:10px;
+	height:11px;
+	text-align:center;
+	padding:0px;
+	margin:0px 4px;
+	float:left;
+}
+
+.carousel .c-content .nav ul li a {
+	position:relative;
+}
+
+.carousel .c-content .nav ul li a img {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.carousel .c-content .nav ul li a img.hover {
+	display:none;
+}
+
+.carousel .c-content .nav ul li:hover a img,
+.carousel .c-content .nav ul li.selected a img {
+	display:none;
+}
+
+.carousel .c-content .nav ul li:hover a img.hover,
+.carousel .c-content .nav ul li.selected a img.hover {
+	display:inline;
+}
